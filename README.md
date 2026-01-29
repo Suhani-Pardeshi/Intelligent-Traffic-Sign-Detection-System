@@ -73,6 +73,21 @@ It uses OpenCV for image processing, NumPy for pixel analysis, and Gradio to pro
 │── README.md               # Project documentation
 │── requirements.txt        # Required libraries
 
+# ▶️ How to Run the Project
+* 1️⃣ Clone the Repository
+git clone https://github.com/your-username/traffic-sign-detection.git
+cd traffic-sign-detection
+
+* 2️⃣ Install Dependencies
+pip install opencv-python numpy gradio
+
+* 3️⃣ Run the Application
+python app.py
+
+* 4️⃣ Open in Browser
+Gradio will provide a local URL (usually http://127.0.0.1:7860)
+Upload a traffic sign image to see the detection result.
+
 # 🖼️ Sample Output
 
 * 🟢 GREEN SIGNAL – GO
